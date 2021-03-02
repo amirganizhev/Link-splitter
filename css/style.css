@@ -1,0 +1,177 @@
+﻿:root {
+  --input-padding-x: .75rem;
+  --input-padding-y: .75rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: url(../image/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+ background-color: white;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+  z-index: 2;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  z-index: 2;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border-radius: 35px;
+  height: 65px;
+  cursor: text;
+  text-align: center;
+}
+
+.reduction-form {
+  font-size: 2vw;
+}
+
+.button-to-shorten-links {
+  border-radius: 35px;
+  height: 65px;
+  font-size: 2vw;
+}
+
+.discription {
+  font-size: 3vw;
+}
+
+p {
+  font-size: 2vw;
+}
+
+.rules {
+  font-size: 1.5vw;
+  color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1000px) {
+  .discription {
+  font-size: 4vw;
+}
+
+p {
+  font-size: 3vw;
+}
+
+.rules {
+  font-size: 2.5vw;
+  color: white;
+}
+
+.reduction-form {
+  font-size: 3vw;
+}
+
+.button-to-shorten-links {
+  font-size: 3vw;
+}
+}
+
+@media (max-width: 700px) {
+  .form-control {
+  border-radius: 35px;
+  height: 45px;
+}
+
+.button-to-shorten-links {
+  border-radius: 35px;
+  height: 45px;
+}
+}
+
+@media (max-width: 500px) {
+  .discription {
+  font-size: 6vw;
+}
+
+p {
+  font-size: 5vw;
+}
+
+.rules {
+  font-size: 4.5vw;
+  color: white;
+}
+
+.reduction-form {
+  font-size: 4vw;
+}
+
+.button-to-shorten-links {
+  font-size: 4vw;
+}
+}
+
+@media (max-width: 400px) {
+  .discription {
+  font-size: 7vw;
+}
+
+p {
+  font-size: 6vw;
+}
+
+.rules {
+  font-size: 5.5vw;
+  color: white;
+}
+
+.reduction-form {
+  font-size: 5vw;
+}
+
+.button-to-shorten-links {
+  font-size: 5vw;
+}
+}
+
+@media (min-width: 1920px) {
+.form-control {
+  height: 80px;
+}
+
+.button-to-shorten-links {
+  height: 80px;
+}
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+#particles {
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  z-index: 1;
+}
