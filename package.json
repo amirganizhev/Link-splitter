@@ -1,0 +1,25 @@
+{
+  "name": "linksplitter",
+  "version": "1.0.0",
+  "description": "Сайт для сокращения ссылок",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirganizhev/Link-splitter.git"
+  },
+  "keywords": [
+    "сокращатель",
+    "ссылок",
+    "ссылки",
+    "сокращение"
+  ],
+  "author": "Амир Ганижев",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirganizhev/Link-splitter/issues"
+  },
+  "homepage": "https://github.com/amirganizhev/Link-splitter#readme"
+}

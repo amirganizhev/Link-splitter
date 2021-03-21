@@ -9,23 +9,16 @@ body {
 }
 
 body {
-  background: url(../image/background.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url(../image/background.png);  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
-  display: -ms-flexbox;
-  display: -webkit-box;
+  background-position: center center;
   display: flex;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  -webkit-box-align: center;
   align-items: center;
-  -webkit-box-pack: center;
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
- background-color: white;
 }
 
 .form-signin {
@@ -61,7 +54,7 @@ body {
   font-size: 2vw;
 }
 
-.discription {
+.description {
   font-size: 3vw;
 }
 
@@ -74,104 +67,82 @@ p {
   color: white;
 }
 
-/*--------------------------------------------------------------------------------------------------------*/
-
+/*Медиа запросы*/
 @media (max-width: 1000px) {
-  .discription {
-  font-size: 4vw;
-}
-
-p {
-  font-size: 3vw;
-}
-
-.rules {
-  font-size: 2.5vw;
-  color: white;
-}
-
-.reduction-form {
-  font-size: 3vw;
-}
-
-.button-to-shorten-links {
-  font-size: 3vw;
-}
+  .description {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+  .rules {
+    font-size: 2.5vw;
+    color: white;
+  }
+  .reduction-form {
+    font-size: 3vw;
+  }
+  .button-to-shorten-links {
+    font-size: 3vw;
+  }
 }
 
 @media (max-width: 700px) {
   .form-control {
-  border-radius: 35px;
-  height: 45px;
-}
-
+    border-radius: 35px;
+    height: 45px;
+  }
 .button-to-shorten-links {
-  border-radius: 35px;
-  height: 45px;
-}
+    border-radius: 35px;
+    height: 45px;
+  }
 }
 
 @media (max-width: 500px) {
-  .discription {
-  font-size: 6vw;
-}
-
-p {
-  font-size: 5vw;
-}
-
-.rules {
-  font-size: 4.5vw;
-  color: white;
-}
-
-.reduction-form {
-  font-size: 4vw;
-}
-
-.button-to-shorten-links {
-  font-size: 4vw;
-}
+  .description {
+    font-size: 6vw;
+  }
+  p {
+    font-size: 5vw;
+  }
+  .rules {
+    font-size: 4.5vw;
+    color: white;
+  }
+  .reduction-form {
+    font-size: 4vw;
+  }
+  .button-to-shorten-links {
+    font-size: 4vw;
+  }
 }
 
 @media (max-width: 400px) {
-  .discription {
-  font-size: 7vw;
-}
-
-p {
-  font-size: 6vw;
-}
-
-.rules {
-  font-size: 5.5vw;
-  color: white;
-}
-
-.reduction-form {
-  font-size: 5vw;
-}
-
-.button-to-shorten-links {
-  font-size: 5vw;
-}
+  .description {
+    font-size: 7vw;
+  }
+  p {
+    font-size: 6vw;
+  }
+  .rules {
+    font-size: 5.5vw;
+    color: white;
+  }
+  .reduction-form {
+    font-size: 5vw;
+  }
+  .button-to-shorten-links {
+    font-size: 5vw;
+  }
 }
 
 @media (min-width: 1920px) {
-.form-control {
-  height: 80px;
+  .form-control {
+    height: 80px;
+  }
+  .button-to-shorten-links {
+    height: 80px;
+  }
 }
 
-.button-to-shorten-links {
-  height: 80px;
-}
-}
 
-/*--------------------------------------------------------------------------------------------------------*/
-
-#particles {
-  position: absolute;
-  width: 100%;
-  height: 100%; 
-  z-index: 1;
-}
