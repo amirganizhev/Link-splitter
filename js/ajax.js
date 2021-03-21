@@ -29,6 +29,8 @@ linkShortening.onclick = function () {
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     /*Послание запроса*/
     xhttp.send(params);
+    /*Если статус не равен 201, тоесть ошибка, то запрос отправлен неудачно. 
+    В остальных случаях все отправится, и ответ от сервера, в формате JSON, выводится обратно в форму*/
     if (xhttp.status !== 201) {
         alert(JSON.parse(xhttp.responseText)["url"]);
     } else {
